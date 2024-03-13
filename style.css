@@ -11,16 +11,28 @@ header {
     padding: 20px 0;
 }
 
-main {
-    padding: 20px;
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 20px;
+}
+
+nav a:hover {
+    background-color: #ddd;
 }
 
 section {
-    margin-bottom: 20px;
-}
-
-h1, h2 {
-    margin-top: 0;
+    padding: 20px;
 }
 
 footer {
